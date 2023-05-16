@@ -10,46 +10,46 @@
 	<form action="/action_page.php" method="post">
 		<div>
 			<label for="name">Name</label>
-                <input type="text" name="Name" id="name">
+                <input type="text" name="Name" id="name" required>
 		</div>
 		<br>
 		<div>
 			<label for="email">Email:</label>
-			<input type="email">
+			<input type="email" required>
         </div>
 		<br>
 		<div>
 			<label for="gender">Gender:</label>
-			<input type="radio">Male
-			<input type="radio">Female
+			<input type="radio"required>Male
+			<input type="radio"required>Female
 		</div>
 		<br>
 		<div>
 			<label for="Brand">Laptop Brands :</label>
 			<select name="Brands">
-				<option value="Apple">Apple</option>
-				<option value="Asus">Asus</option>
-				<option value="HP">HP</option>
+				<option value="Apple"required>Apple</option>
+				<option value="Asus"required>Asus</option>
+				<option value="HP"required>HP</option>
 			</select>
 		</div>
 		<br>
 		<div>
 			<label for="age">Age:</label>
-			<input type="number">
+			<input type="number"required>
 		</div>
 		<br>
 		<div>
 			<label for="dob">D.O.B:</label>
-			<input type="date">
+			<input type="date"required>
 		</div>
 		<br>
 		<div>
 			<label for="password">Create a new Password:</label>
-			<input type="password">
+			<input type="password"required>
 		</div>
 		<br>
 		<div>			
-			<input type="button" value="Submit">
+			<input type="button" value="Submit"required>
 		</div>
 	</form>
 	<!-- the entire body must be written by student -->
